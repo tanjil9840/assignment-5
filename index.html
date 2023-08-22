@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale </title>
+    <link rel="shortcut icon" href="images/Summer 1.png" type="image/x-icon">
+    <!--  google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        body{
+            font-family: 'Work Sans' !important;
+        }
+        
+        
+    </style>
+</head>
+<body class="bg-[#F8F8F8] ">
+    <!--  header start  -->
+    <header class="bg-[#F9F6E2]">
+      <!--  banner container  -->
+      <div class="flex py-12 flex-col lg:flex-row justify-center  px-20 items-center">
+        <div class="flex-1 text-center space-y-4 px-2">
+            <h1 class="lg:text-3xl  font-[500] text-2xl">---SALE FEVER---</h1>
+            <h1 class="lg:text-5xl font-bold pb-8 text-3xl ">Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span></h1>
+            <p class="text-2xl  ">Use Promo Code <span class="bg-[#E527B2]  font-[600]  p-2 rounded mb-4 text-white relative top-3 md:top-0 lg:top-0 ">SELL200</span></p>
+        </div>
+        <div class="pl-5 py-4 flex-1 ">
+            <img src="images/Summer 1.png" class="lg:w-1/2 sm:w-[400px]"  alt="">
+        </div>
+      </div>
+    </header>
+   
+  <main class="mb-5 mt-10 ">
+       
+         
+            <h1 class="font-semibold ml-[50px]  mb-4 text-4xl">Kitchenware</h1>
+         
+        <div class=" flex flex-col lg:flex-row ">
+           
+            <div class="mx-auto">
+                <div class="grid   grid-cols-1 gap-2 md:grid-cols-3lg:px-0 lg:grid-cols-3  px-4 ">
+                     
+                    <div class=" h-[300px] w-[250px]  shadow-lg p-5 text-center space-y-5  ">
+                       <div class="bg-gray-300 p-4">
+                           <img src="images/prod1.png" class="mx-auto  " alt=""> 
+    
+                       </div>
+                         <div>
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"  />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                            <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                              <h1 class="text-[20px]">K. Accessories</h1>
+                              <span >39.00 TK</span>
+                               
+                            </div>
+                        </div>
+                    </div>
+    
+                     <!-- card   two   -->
+                     <div class="  h-[300px] w-[250px] text-center    p-5 space-y-5 shadow-lg ">
+                        <div class="p-3 bg-gray-300 ">
+                            <img src="images/prod2.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                             <div class="rating " >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z" stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z" stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z" stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z" stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z" stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                           </div>
+                           <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                              <h1 class="text-[20px]">K. Accessories</h1>
+                              <span>25.00 TK</span>
+                               
+                           </div>
+                         </div>
+                     </div>
+    
+                      <!-- card three   -->
+                    <div class="  h-[300px] w-[250px]  text-center  p-5 space-y-5 shadow-lg">
+                        <div class="bg-gray-300 p-4">
+                            <img src="images/prod3.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                             <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-checked="true"/>
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                           <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                              <h1 class="text-[20px]">Home Cooker</h1>
+                              <span>49.00 TK </span>
+                            </div>
+                         </div>
+                     </div>
+    
+                </div>
+                <h1 class=" mt-4 font-semibold text-4xl   mb-4">Sportswear</h1>
+                <div class=" mx-auto gap-2 grid  grid-cols-1   md:grid-cols-3 px-4 lg:px-0 lg:grid-cols-3">
+                    <!--card  first   -->
+                    <div  class="h-[300px] w-[250px] text-center  p-5 space-y-5 shadow-lg ">
+                       <div class="bg-gray-300 p-4">
+                           <img src="images/prod4.png" class="mx-auto  " alt=""> 
+    
+                       </div>
+                         <div>
+                            <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"   />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <div onclick="handleClick(this)" class="cursor-pointer" title="click to shoping">
+                            <h1 class="text-[20px]">Sports Back Cap</h1>
+                            <span>49.00 TK </span>
+                           </div>
+                        </div>
+                    </div>
+    
+                     <!-- card two  -->
+                     <div class=" h-[300px] w-[250px]   text-center   p-5 space-y-5 shadow-lg">
+                        <div class="bg-gray-300 p-2">
+                            <img src="images/prod5.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                             <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"    />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                           <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                             <h1 class="text-[20px]">Full Jersey Set</h1>
+                             <span>69.00 TK</span>
+                             </div>
+                         </div>
+                     </div>
+    
+                      <!-- card three -->
+                    <div class="  h-[300px] w-[250px]  text-center  p-5 space-y-5 shadow-lg ">
+                        <div class="bg-gray-300 p-2">
+                            <img src="images/prod6.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                             <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  aria-checked="true" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                           </div>
+                           <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                             <h1 class="text-[20px]">Sports cates</h1>
+                             <span>159.00 TK </span>
+                             </div>
+                         </div>
+                     </div>
+    
+                </div>
+                <h1 class="text-4xl  mt-4 font-semibold mb-4">Furniture</h1>
+                <div class="grid mx-auto gap-2 grid-cols-1  md:grid-cols-3 px-4 lg:px-0 lg:grid-cols-3">
+                    <!-- card  first   -->
+                    <div class="w-[250px]   h-[300px] p-5 space-y-5 shadow-lg text-center">
+                       <div class="bg-gray-300 p-2">
+                           <img src="images/prod7.png" class="mx-auto  " alt=""> 
+    
+                       </div>
+                         <div>
+                            <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"    />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                          </div>
+                          <div class="cursor-pointer" onclick="handleClick(this)" title="click to shoping">
+                            <h1 class="text-[20px]">Single Relax Chair</h1>
+                            <span>185.00 TK</span>
+ 
+                          </div>
+                        </div>
+                    </div>
+    
+                     <!-- card  two   -->
+                     <div class=" h-[300px] w-[250px]   text-center p-5 space-y-5 shadow-lg ">
+                        <div class="bg-gray-300 p-3">
+                            <img src="images/prod8.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                             <div class="rating">
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"   />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                           </div>
+                           <div onclick="handleClick(this)" class="cursor-pointer" title="click to shoping">
+                             <h1 class="text-[20px]">Children play</h1>
+                             <span>299.00 TK</span>
+ 
+                           </div>
+                         </div>
+                     </div>
+    
+                      <!-- card three   -->
+                    <div class="w-[250px]   h-[300px] p-5 space-y-5 shadow-lg text-center">
+                        <div class="bg-gray-300 p-3.5 ">
+                            <img src="images/prod9.png" class="mx-auto  " alt=""> 
+     
+                        </div>
+                          <div>
+                            <div class="rating rating-md">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"   />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" aria-checked="true" />
+                            </div>
+                            <div title="click to shoping" onclick="handleClick(this)" class="cursor-pointer">
+                              <h1 class="text-[20px]">Flexible Sofa</h1>
+                              <span>339.00 TK</span>
+                              </div>
+                         </div>
+                     </div>
+    
+                </div>
+            </div>
+            
+            <div class="  space-y-5 w-[300px] mx-auto  relative lg:right-[40px] mt-5 lg:mt-0">
+                <div class="bg-white px-5 py-3 rounded shadow-lg">
+                    <h1 class="text-2xl mb-3">Have coupon?</h1>
+                    <input type="text" id="coupon" class="w-1/2 border-2 border-black text-[12px]   p-3 rounded" placeholder="Coupon code">
+                    <button id="coupon-button" class="bg-[#E527B2]   py-2 rounded text-white px-4 " onclick="couponBtn()" disabled>Apply</button>
+                </div>
+                <div class="space-y-2 px-5  bg-white shadow-lg mt-4   py-3">
+                    <ol id="List" class="text-2xl border-b-2 pb-4 pl-9 list-decimal font-[500]">
+                         
+                    </ol>
+                   <div class="border-b-2 pb-4">
+                    <h1 class="text-[20px] font-[500]">Total price : <span id="totalPrice">00.00</span> TK</h1>
+                    <h1 class="text-[20px] font-[500]">Discount : <span id="discountBlance">00.00</span> TK</h1>
+                    <h1 class="text-[20px] font-[500]">Total: <span id="total">00.00</span> TK</h1>
+                   </div>
+                    <div class="flex justify-center">
+                         
+                      <button  id="Purchase-button"  class="bg-[#f503b5] w-9/12 px-4 py-2 rounded   text-white" disabled  onclick="my_modal_1.showModal()">Make Purchase</button>
+                      <div class="px-4">
+                        <dialog id="my_modal_1" class="modal text-center">
+                           <form method="dialog"   class="bg-white space-y-5 modal-box shadow-lg p-4 w-[400px]   rounded">
+                             <img src="images/congo.png" class="mx-auto" alt="">
+                             <h1 class="text-2xl font-bold">Congratulations</h1>
+                             <p class="text-[20px] font-[400]">Your Purchase the product</p>
+                               
+                              <button id="" class="bg-[#E527B2]   py-2 rounded text-white px-8 " onclick="goHome()" >Go Home</button>
+                            </form>
+                        </dialog>
+                       </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+  </main>
+  <!-- end   -->
+
+<!--  js   -->
+ <script src="main.js"></script>
+</body>
+</html>
